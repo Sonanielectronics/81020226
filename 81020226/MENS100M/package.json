@@ -1,0 +1,23 @@
+{
+  "name": "mens100m2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development&& node app.js",
+    "start-prod": "NODE_ENV=production&& node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1",
+    "validator": "^13.7.0"
+  },
+  "engines": {
+    "node": "16.15.0"
+  }
+}
